@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.24"
+
+[rpc_endpoints]
+base = "https://mainnet.base.org"
+# Fallbacks if mainnet.base.org rate-limits (set BASE_RPC env to override):
+#   https://base-rpc.publicnode.com
+#   https://base.drpc.org
